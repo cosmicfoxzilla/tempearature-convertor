@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Converting App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 id="weather-converting-app-text">Weather Converting App</h3>
+    
+    <div class="dropdown">
+        <button class="dropbtn">temperature</button>
+        <div class="dropdown-content">
+          <a href="#">fahrenheit</a>
+          <a href="#">kelvin</a>
+          <a href="#">celsius</a>
+        </div>
+    </div>
+    <br><br>
+    <div class="container-of-form">
+        <div class="conversionformcelsius">
+            <form id="conversionForm">
+                <label for="CelsiusValue">Type kelvin:</label>
+                <input id="CelsiusValue" type="number" placeholder="Enter kelvin">
+                <button type="button" onclick="convertToCelsius()">Convert to Celsius</button>
+            </form>
+            <p id="result"></p>
+        </div>
+    </div>
+    <h4>note: this website is on active update</h4>
+    <script src="script.js"></script>
+</body>
+</html>
